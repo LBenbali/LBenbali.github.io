@@ -1,138 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Portfolio2</title>
+    <title>Mijn Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-
 <body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/about-me.html">Over Mij</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="projects.html">Projecten</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
+    <!-- Alert -->
+    <div class="container mt-4">
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            Welkom op mijn portfolio! Blijf hier om meer te ontdekken.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
 
-
-    <div class="container-fluid">
+    <!-- Welkomsttekst -->
+    <div class="container mt-4">
         <div class="row">
-
-
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <span class="h3">Larbi</span>
-                    </div>
-                    <div class="col-md-1">
-                        <i class="bi bi-headset h3"></i>
-                    </div>
-                    <div class="col-md-1">
-                        <i class="bi bi-headset h3"></i>
-                    </div>
-                    <div class="col-md-1">
-                        <i class="bi bi-headset h3"></i>
-                    </div>
-                    <div class="col-md-1">
-                        <i class="bi bi-headset h3"></i>
-                    </div>
-                    <div class="col-md-1">
-                        <i class="bi bi-headset h3"></i>
-                    </div>
-                    <div class="col-md-1">
-                        <i class="bi bi-headset h3"></i>
-                    </div>
-                    <div class="col-md-1">
-                        <i class="bi bi-headset h3"></i>
-                    </div>
-                    <div class="col-sm-1">
-                     <span class="md-h4">About Me</span>
-                    </div>
-                    <div class="col-sm-1">
-                     <span class="md-h4">Projecten</span>
-                    </div>
-                    <div class="col-sm-1">
-                      <span class="md-h5">Contact</span>
-                    </div>
+            <div class="col-12">
+                <div class="p-4 bg-light rounded shadow-sm">
+                    <h1>Welkom op mijn portfolio!</h1>
+                    <p>Mijn naam is Larbi Benbali en ik ben een gepassioneerde software developer in opleiding, met een toewijding voor handige en makkelijk bereikbare websites. Door de combinatie van mijn creativiteit en technische vaardigheden streef ik ernaar om een goede software developer te worden en goede websites te maken. In dit portfolio deel ik graag mijn reis, ervaringen en projecten. Laten we samen duiken in de wereld van creativiteit en innovatie!</p>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="col-sm-12 col-md-6">
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Cards Section -->
+        <div class="row mt-4">
+            <div class="col-md-4">
                 <div class="card">
-                    <img src="img/foto.png" class="card-img-top" alt="...">
-                    <div class="card-body ">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <img src="" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Beschrijving van project 1.</p>
+                        <a href="#" class="btn btn-primary">Meer lezen</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="card" >
-                    <img src="img/foto.png" class="card-img-top" alt="...">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Beschrijving van project 2.</p>
+                        <a href="#" class="btn btn-primary">Meer lezen</a>
                     </div>
-                  </div>
-                  <div class="card" >
-                    <img src="img/foto.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card" >
-                    <img src="img/foto.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
+                </div>
             </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="card" >
-                    <img src="img/foto.png" class="card-img-top" alt="...">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="" class="card-img-top img-fluid" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Beschrijving van project 3.</p>
+                        <a href="#" class="btn btn-primary">Meer lezen</a>
                     </div>
-                  </div>
-                  <div class="card" >
-                    <img src="img/foto.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card" >
-                    <img src="img/foto.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
+                </div>
             </div>
         </div>
 
-
-
-
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+        <!-- List with Bootstrap Icons -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="bi bi-alarm"></i> List item 1</li>
+                    <li class="list-group-item"><i class="bi bi-battery"></i> List item 2</li>
+                    <li class="list-group-item"><i class="bi bi-calendar"></i> List item 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-
 </html>
